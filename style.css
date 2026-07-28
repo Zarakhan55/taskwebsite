@@ -1,0 +1,377 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f6fbff;
+}
+
+.learning{
+    padding:80px 0;
+}
+
+.container{
+
+    width:1200px;
+    margin:auto;
+
+    background:#eef7ff;
+
+    border-radius:20px;
+
+    padding:60px;
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    gap:70px;
+}
+
+/* LEFT */
+
+.left{
+    flex:1;
+}
+
+.left h2{
+
+    font-size:38px;
+
+    line-height:1.3;
+
+    color:#2d3350;
+
+    margin-bottom:35px;
+}
+
+.left ul{
+    list-style:none;
+}
+
+.left li{
+
+    margin-bottom:22px;
+
+    color:#6d7a92;
+
+    position:relative;
+
+    padding-left:30px;
+}
+
+.left li::before{
+
+    content:"";
+
+    width:12px;
+
+    height:12px;
+
+    background:#57e4d2;
+
+    border-radius:50%;
+
+    position:absolute;
+
+    left:0;
+
+    top:6px;
+}
+
+.left button{
+
+    margin-top:25px;
+
+    padding:16px 35px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#49c6c8;
+
+    color:white;
+
+    font-size:17px;
+
+    cursor:pointer;
+}
+
+/* RIGHT */
+
+.right{
+    flex:1;
+}
+
+.window{
+
+    background:white;
+
+    border-radius:18px;
+
+    padding:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.1);
+}
+
+.top-bar{
+
+    display:flex;
+
+    gap:8px;
+
+    margin-bottom:20px;
+}
+
+.top-bar span{
+
+    width:10px;
+
+    height:10px;
+
+    border-radius:50%;
+}
+
+.red{
+    background:#ff6057;
+}
+
+.yellow{
+    background:#ffbd44;
+}
+
+.green{
+    background:#00ca4e;
+}
+
+.video-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:15px;
+}
+
+.big img,
+.small img{
+
+    width:100%;
+
+    height:100%;
+
+    object-fit:cover;
+
+    border-radius:12px;
+}
+
+.big{
+
+    height:180px;
+}
+
+.small{
+
+    height:170px;
+}
+
+.buttons{
+
+    margin-top:25px;
+
+    display:flex;
+
+    gap:15px;
+}
+
+.present{
+
+    background:#4f6ef7;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 25px;
+
+    border-radius:30px;
+}
+
+.call{
+
+    background:#ff4d79;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 25px;
+
+    border-radius:30px;
+}
+
+
+/* ================== */
+
+
+.recommended{
+
+    width:100%;
+    padding:80px 120px;
+    background:#eef7ff;
+}
+
+/* Heading */
+
+.heading{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:45px;
+}
+
+.heading h2{
+
+    font-size:34px;
+    font-weight:700;
+    color:#222;
+}
+
+.heading a{
+
+    text-decoration:none;
+    color:#36bfc7;
+    font-weight:600;
+}
+
+/* Cards */
+
+.courses{
+
+    display:flex;
+    justify-content:space-between;
+    gap:30px;
+}
+
+/* Card */
+
+.card{
+
+    width:280px;
+    background:#fff;
+    border-radius:20px;
+    overflow:hidden;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+
+    transition:.4s;
+}
+
+.card:hover{
+
+    transform:translateY(-8px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.15);
+}
+
+.card>img{
+
+    width:100%;
+    height:180px;
+    object-fit:cover;
+}
+
+.content{
+
+    padding:18px;
+}
+
+/* top */
+
+.top{
+
+    display:flex;
+    justify-content:space-between;
+    font-size:13px;
+    color:#999;
+    margin-bottom:18px;
+}
+
+.top i{
+
+    color:#b7b7b7;
+}
+
+/* title */
+
+.content h3{
+
+    font-size:24px;
+    line-height:33px;
+    margin-bottom:18px;
+    color:#222;
+}
+
+/* paragraph */
+
+.content p{
+
+    font-size:14px;
+    line-height:24px;
+    color:#777;
+    margin-bottom:25px;
+}
+
+/* bottom */
+
+.bottom{
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.teacher{
+
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.teacher img{
+
+    width:34px;
+    height:34px;
+    border-radius:50%;
+}
+
+.teacher span{
+
+    font-size:15px;
+    font-weight:600;
+}
+
+.price{
+
+    text-align:right;
+}
+
+.price del{
+
+    color:#999;
+    font-size:14px;
+}
+
+.price h4{
+
+    color:#36bfc7;
+    font-size:24px;
+    margin-top:4px;
+}
